@@ -6,17 +6,139 @@
     android:layout_height="match_parent"
     tools:context=".Labo">
 
-    <Button
-        android:id="@+id/Lab1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="100dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginRight="100dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="40dp"
-        android:text="Laboratorium 1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/Lab0"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="40dp"
+                android:text="Harmonogram"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/Lab1"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:text="Laboratorium 1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHorizontal_bias="0.511"
+                app:layout_constraintTop_toBottomOf="@+id/Lab0" />
+
+            <Button
+                android:id="@+id/Lab2"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:text="Laboratorium 2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.511"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Lab1" />
+
+            <Button
+                android:id="@+id/Lab3"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:text="Laboratorium 3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.511"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Lab2" />
+
+            <Button
+                android:id="@+id/Lab4"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:text="Laboratorium 4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.511"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Lab3" />
+
+            <Button
+                android:id="@+id/Lab5"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:text="Laboratorium 5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.511"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Lab4" />
+
+            <Button
+                android:id="@+id/Lab6"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:text="Laboratorium 6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.511"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Lab5" />
+
+            <Button
+                android:id="@+id/Lab7"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:text="Laboratorium 7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.511"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Lab6" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
 </android.support.constraint.ConstraintLayout>

@@ -7,6 +7,7 @@ import com.github.barteksc.pdfviewer.PDFView;
 
 public class LabView extends AppCompatActivity {
 
+    ContentHelper helper = new ContentHelper();
     PDFView pdfViewer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,7 +15,34 @@ public class LabView extends AppCompatActivity {
         setContentView(R.layout.activity_lab_view);
 
         pdfViewer = (PDFView) findViewById(R.id.pdfViewer);
-        pdfViewer.fromAsset("Lab1.pdf").load();
+        if(helper.getWhichLab() == 1)
+        {
+            pdfViewer.fromAsset("Lab1.pdf").load();
+        }
+        else if(helper.getWhichLab() == 2)
+        {
+            pdfViewer.fromAsset("Lab1.pdf").load();
+        }
+        else if(helper.getWhichLab() == 3)
+        {
+            pdfViewer.fromAsset("Lab1.pdf").load();
+        }
+        else if(helper.getWhichLab() == 4)
+        {
+            pdfViewer.fromAsset("Lab1.pdf").load();
+        }
+        else if(helper.getWhichLab() == 5)
+        {
+            pdfViewer.fromAsset("Lab1.pdf").load();
+        }
+        else if(helper.getWhichLab() == 6)
+        {
+            pdfViewer.fromAsset("Lab1.pdf").load();
+        }
+        else if(helper.getWhichLab() == 7)
+        {
+            pdfViewer.fromAsset("Lab1.pdf").load();
+        }
 
     }
 }
