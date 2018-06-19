@@ -17,10 +17,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Presentation" />
-        <activity android:name=".Labo" />
-        <activity android:name=".Test" />
-        <activity android:name=".LabView"></activity>
+        <activity android:name=".Presentation" android:parentActivityName=".Start" />
+        <activity android:name=".Labo" android:parentActivityName=".Start"/>
+        <activity android:name=".Test" android:parentActivityName=".Start"/>
+        <activity android:name=".LabView" android:parentActivityName=".Labo"></activity>
     </application>
 
 </manifest>
