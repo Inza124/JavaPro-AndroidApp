@@ -1,0 +1,38 @@
+<resources>
+    <string name="text_1">  1. Która deklaracja zmiennych w języku Java jest poprawna? </string>
+    <string name="text_1a">a)int ?abc; </string>
+    <string name="text_1b">b)int "abc; </string>
+    <string name="text_1c">c)int @abc; </string>
+    <string name="text_1d">d)int /abc; </string>
+
+    <string name="text_2">  2. W wyniku kompilacji kodu źródlowego otrzymano między innymi pliki Class$1.class, Class$2.class. Dlaczego w nazwach plików po znaku $ są liczby 1 i 2?</string>
+    <string name="text_2a">a) Ponieważ klasa zawierała dwie klasy wewnętrzne o nazwach 1 i 2</string>
+    <string name="text_2b">b) Ponieważ klasa zawierała dwie anonimowe klasy wewnętrzne</string>
+    <string name="text_2c">c) Ponieważ klasa zawierała dwie nazwane klasy abstrakcyjne</string>
+    <string name="text_2d">d) Ponieważ klasa zawierała dwie nazwane klasy adaptacyjne</string>
+
+    <string name="text_3">  3. W języku Java deklaracja zmiennej i utworzenie obiektu przycisku klasy JButton o nazwie button ma postać</string>
+    <string name="text_3a">a) button = new JButton("JButton"); </string>
+    <string name="text_3b">b) JButton button = new JButton("JButton");</string>
+    <string name="text_3c">c) JButton button = new JButton</string>
+    <string name="text_3d">d) button = new JButton</string>
+
+    <string name="text_4">  4. Który z wymienionych interfejsów nie posiada swojej klasy adaptacyjnej?</string>
+    <string name="text_4a">a) java.awt.event.MouseListener </string>
+    <string name="text_4b">b) java.awt.event.WindowListener</string>
+    <string name="text_4c">c) java.awt.event.ActionListener</string>
+    <string name="text_4d">d) java.awt.event.KeyListener</string>
+
+    <string name="text_5">  5. Która składnia dodawania obiektu panelu ( JPanel panel = new Panel(); ) do kontenera okna ( JFrame frame = new JFrame(); ) jest poprawna?</string>
+    <string name="text_5a">a) frame.add(panel)</string>
+    <string name="text_5b">b) panel.add(frame)</string>
+    <string name="text_5c">c) frame.addActionListener(panel)</string>
+    <string name="text_5d">d) panel.addActionListener(frame)</string>
+
+    <string name="text_6">  6. W Języki Java w klasie serwletów javax.servlet.http.HttpServler za obsługę żądań typu GET odpowiada metoda:</string>
+    <string name="text_6a">a) processRequest()</string>
+    <string name="text_6b">b) doGet()</string>
+    <string name="text_6c">c) doPost()</string>
+    <string name="text_6d">d) Język Java nie obsługuje żądań typu GET</string>
+
+</resources>

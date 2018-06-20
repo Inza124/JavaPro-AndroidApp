@@ -1,0 +1,34 @@
+<resources>
+<string name="answer_1a">INCORRECT</string>
+<string name="answer_1b">INCORRECT</string>
+<string name="answer_1c">INCORRECT</string>
+<string name="answer_1d">INCORRECT</string>
+
+<string name="answer_2a">INCORRECT</string>
+<string name="answer_2b">CORRECT</string>
+<string name="answer_2c">INCORRECT</string>
+<string name="answer_2d">INCORRECT</string>
+
+<string name="answer_3a">INCORRECT</string>
+<string name="answer_3b">CORRECT</string>
+<string name="answer_3c">INCORRECT</string>
+<string name="answer_3d">INCORRECT</string>
+
+<string name="answer_4a">INCORRECT</string>
+<string name="answer_4b">INCORRECT</string>
+<string name="answer_4c">CORRECT</string>
+<string name="answer_4d">INCORRECT</string>
+
+<string name="answer_5a">CORRECT</string>
+<string name="answer_5b">INCORRECT</string>
+<string name="answer_5c">INCORRECT</string>
+<string name="answer_5d">INCORRECT</string>
+
+<string name="answer_6a">INCORRECT</string>
+<string name="answer_6b">CORRECT</string>
+<string name="answer_6c">INCORRECT</string>
+<string name="answer_6d">INCORRECT</string>
+
+
+
+</resources>

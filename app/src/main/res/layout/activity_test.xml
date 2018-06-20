@@ -1,16 +1,312 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Test">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.piotr.javaproj.Test"
+    android:fillViewport="false">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="182dp" />
-</android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            android:background="#c0c0c0" />
+
+        <TextView
+            android:id="@+id/label_text_view_1"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/text_1" />
+
+
+
+        <CheckBox
+            android:id="@+id/checkBox_1a"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_1a"/>
+
+        <CheckBox
+            android:id="@+id/checkBox_1b"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_1b"/>
+
+
+        <CheckBox
+            android:id="@+id/checkBox_1c"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_1c"/>
+
+        <CheckBox
+            android:id="@+id/checkBox_1d"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_1d"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            android:background="#c0c0c0" />
+
+        <TextView
+            android:id="@+id/label_text_view_2"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/text_2" />
+
+
+
+        <CheckBox
+            android:id="@+id/checkBox_2a"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_2a"/>
+
+        <CheckBox
+            android:id="@+id/checkBox_2b"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_2b"/>
+
+
+        <CheckBox
+            android:id="@+id/checkBox_2c"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_2c"/>
+
+        <CheckBox
+            android:id="@+id/checkBox_2d"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_2d"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            android:background="#c0c0c0" />
+
+        <TextView
+            android:id="@+id/label_text_view_3"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/text_2" />
+
+
+
+        <CheckBox
+            android:id="@+id/checkBox_3a"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_3a"/>
+
+        <CheckBox
+            android:id="@+id/checkBox_3b"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_3b"/>
+
+
+        <CheckBox
+            android:id="@+id/checkBox_3c"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_3c"/>
+
+        <CheckBox
+            android:id="@+id/checkBox_3d"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_3d"/>
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            android:background="#c0c0c0" />
+
+        <TextView
+            android:id="@+id/label_text_view_4"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/text_4" />
+
+
+
+        <CheckBox
+            android:id="@+id/checkBox_4a"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_4a"/>
+
+        <CheckBox
+            android:id="@+id/checkBox_4b"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_4b"/>
+
+
+        <CheckBox
+            android:id="@+id/checkBox_4c"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_4c"/>
+
+        <CheckBox
+            android:id="@+id/checkBox_4d"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_4d"/>
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            android:background="#c0c0c0" />
+
+        <TextView
+            android:id="@+id/label_text_view_5"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/text_5" />
+
+
+
+        <CheckBox
+            android:id="@+id/checkBox_5a"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_5a"/>
+
+        <CheckBox
+            android:id="@+id/checkBox_5b"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_5b"/>
+
+
+        <CheckBox
+            android:id="@+id/checkBox_5c"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_5c"/>
+
+        <CheckBox
+            android:id="@+id/checkBox_5d"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_5d"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            android:background="#c0c0c0" />
+
+        <TextView
+            android:id="@+id/label_text_view_6"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/text_6" />
+
+
+
+        <CheckBox
+            android:id="@+id/checkBox_6a"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_6a"/>
+
+        <CheckBox
+            android:id="@+id/checkBox_6b"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_6b"/>
+
+
+        <CheckBox
+            android:id="@+id/checkBox_6c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/text_6c"/>
+
+        <CheckBox
+            android:id="@+id/checkBox_6d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/text_6d"/>
+
+
+        <Button
+            android:id="@+id/ResetBtn"
+            android:layout_width="398dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Reset"
+            android:visibility="visible"
+            app:layout_constraintRight_toLeftOf="@+id/CheckBtn" />
+
+        <Button
+            android:id="@+id/CheckBtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="left"
+            android:text="Sprawdź"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
