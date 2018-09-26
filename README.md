@@ -16,8 +16,8 @@ The program was written for passing the course called programming in java langua
 The program has three activities, browsing the lecture slides, viewing laboratory materials and the possibility of solving an exemplary test. Test questions are stored in an XML file
 
 ## Screenshots
-![Menu](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/42591607_728358864163349_2000888425548349440_n.png?_nc_cat=108&oh=3742762f0826665c6254b1e63bb1c634&oe=5C182D29.jpg)
-![edited](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/42629553_1113900078765502_2485612408735793152_n.png?_nc_cat=111&oh=1125bdd9d7f2912a02ff4ef4ddf40f4e&oe=5C604877.jpg)
+![Menu](http://oi63.tinypic.com/deurlc.jpg)
+![edited](http://oi64.tinypic.com/2wp3xna.jpg)
 
 ## Technologies
 * Java
