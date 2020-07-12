@@ -5,7 +5,6 @@ The program was written for passing the course called programming in java langua
 
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Features](#features)
 * [Status](#status)
@@ -14,10 +13,6 @@ The program was written for passing the course called programming in java langua
 
 ## General info 
 The program has three activities, browsing the lecture slides, viewing laboratory materials and the possibility of solving an exemplary test. Test questions are stored in an XML file
-
-## Screenshots
-![Menu](http://oi63.tinypic.com/deurlc.jpg)
-![edited](http://oi64.tinypic.com/2wp3xna.jpg)
 
 ## Technologies
 * Java
